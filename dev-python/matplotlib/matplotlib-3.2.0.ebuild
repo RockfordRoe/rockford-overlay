@@ -119,10 +119,6 @@ python_prepare_all() {
 #	from six import *
 #	EOF
 
-	local PATCHES=(
-		"${FILESDIR}"/${PN}-3.1.2-no-jqueryui-download.patch
-		"${FILESDIR}"/${PN}-3.1.2-qhull.patch
-	)
 
 	sed \
 		-e 's/matplotlib.pyparsing_py[23]/pyparsing/g' \
