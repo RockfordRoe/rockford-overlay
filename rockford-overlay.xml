@@ -1,0 +1,12 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>rockford-overlay</name>
+    <description>"Rockford the Roe's personal Gentoo overlay, contains upstream only ebuilds unless they are systemd-free patched"</description>
+    <homepage>https://github.com/RockfordRoe/rockford-overlay</homepage>
+    <owner>
+      <email>rockfordroe@bleat.bleat</email>
+      <name>"Rockford the Roe"</name>
+    </owner>
+    <source type="git">https://github.com/RockfordRoe/rockford-overlay</source>
+  </repo>
+</repositories>
