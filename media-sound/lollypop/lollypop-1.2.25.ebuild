@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7,8} )
+PYTHON_COMPAT=( python3_6 python3_7 python3_8 )
 PYTHON_REQ_USE="sqlite"
 inherit python-r1 gnome2-utils meson xdg-utils
 
