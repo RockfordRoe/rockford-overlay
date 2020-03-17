@@ -21,4 +21,8 @@ RDEPEND=""
 DEPEND="${RDEPEND}
 	>=dev-ml/ounit-2.0.0"
 
+pkg_setup(){
+	mv /usr/portage/distfiles/fileutils-v${PV}.tbz /usr/portage/distfiles/${P}.tbz
+}
+
 DOCS=( "AUTHORS.txt" "README.txt" "CHANGELOG.txt" "TODO.txt" )
