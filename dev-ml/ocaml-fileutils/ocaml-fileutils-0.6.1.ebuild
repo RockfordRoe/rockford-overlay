@@ -21,11 +21,8 @@ RDEPEND=""
 DEPEND="${RDEPEND}
 	>=dev-ml/ounit-2.0.0"
 
-pkg_setup(){
-	mv /usr/portage/distfiles/fileutils-v${PV}.tbz /usr/portage/distfiles/${P}.tbz
-}
-
 src_unpack(){
+	mv "/usr/portage/distfiles/fileutils-v0.6.1.tbz" "/usr/portage/distfiles/${P}.tbz"
 	unpack "${P}.tbz"
 }
 
