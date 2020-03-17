@@ -25,4 +25,8 @@ pkg_setup(){
 	mv /usr/portage/distfiles/fileutils-v${PV}.tbz /usr/portage/distfiles/${P}.tbz
 }
 
+src_unpack(){
+	unpack "${P}.tbz"
+}
+
 DOCS=( "AUTHORS.txt" "README.txt" "CHANGELOG.txt" "TODO.txt" )
