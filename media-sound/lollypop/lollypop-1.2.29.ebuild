@@ -9,7 +9,7 @@ inherit python-r1 gnome2-utils meson xdg-utils
 
 DESCRIPTION="Modern music player for GNOME"
 HOMEPAGE="https://wiki.gnome.org/Apps/Lollypop"
-SRC_URI="https://gitlab.gnome.org/World/lollypop/-/archive/${P}/${P}.tar.gz"
+SRC_URI="https://adishatz.org/${PN}/${P}.tar.xz"
 KEYWORDS="~amd64"
 
 LICENSE="GPL-3"
