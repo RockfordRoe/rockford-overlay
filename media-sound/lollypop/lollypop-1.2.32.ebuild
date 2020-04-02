@@ -37,7 +37,7 @@ RDEPEND="${DEPEND}
 	dev-python/beautifulsoup:4[${PYTHON_USEDEP}]
 	dev-python/dbus-python
 	dev-python/pillow[${PYTHON_USEDEP}]
-	>=dev-python/pylast-1.0.0[${PYTHON_USEDEP}]
+	>=dev-python/pylast-1.0.0::rockford-overlay[${PYTHON_USEDEP}]
 	media-libs/gst-plugins-base:1.0[introspection]
 "
 
